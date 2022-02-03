@@ -11,10 +11,10 @@ if (isInvincible)
 	}
 }
 
-xDirection = sign(oPlayer.x - x);
+xDirection = sign(oPlayerrpg.x - x);
 xVector = xSpeed * xDirection;
 
-if (abs(oPlayer.x - x) < 128) 
+if (abs(oPlayerrpg.x - x) < 128) 
 {
 	x = x + xVector
 }
