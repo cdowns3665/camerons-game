@@ -19,3 +19,12 @@ if (abs(oPlayerrpg.x - x) < 128)
 	x = x + xVector
 }
 
+
+yDirection = sign(oPlayerrpg.y - y);
+yVector = yspeed * yDirection;
+
+if (abs(oPlayerrpg.y - y) < 128) 
+{
+	y = y + yVector
+}
+

@@ -7,6 +7,7 @@
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"PlayerHurt","path":"scripts/PlayerHurt/PlayerHurt.yy",},"order":0,},
     {"id":{"name":"oHud","path":"objects/oHud/oHud.yy",},"order":3,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
     {"id":{"name":"oEmemyPatrol","path":"objects/oEmemyPatrol/oEmemyPatrol.yy",},"order":8,},
     {"id":{"name":"sProjectal","path":"sprites/sProjectal/sProjectal.yy",},"order":5,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
@@ -16,12 +17,11 @@
     {"id":{"name":"enemyHurt","path":"scripts/enemyHurt/enemyHurt.yy",},"order":1,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":4,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"sEmemy","path":"sprites/sEmemy/sEmemy.yy",},"order":3,},
     {"id":{"name":"oPlayerrpg","path":"objects/oPlayerrpg/oPlayerrpg.yy",},"order":10,},
     {"id":{"name":"oProjectile","path":"objects/oProjectile/oProjectile.yy",},"order":6,},
-    {"id":{"name":"lvl2","path":"rooms/lvl2/lvl2.yy",},"order":1,},
     {"id":{"name":"oflag","path":"objects/oflag/oflag.yy",},"order":9,},
-    {"id":{"name":"lvl1","path":"rooms/lvl1/lvl1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -36,8 +36,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"lvl1","path":"rooms/lvl1/lvl1.yy",},},
-    {"roomId":{"name":"lvl2","path":"rooms/lvl2/lvl2.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
