@@ -15,4 +15,5 @@ turnTimer = 2.5;
 
 xDirection = 0;
 xSpeed= 2;
-
+yDirection = 0;
+ySpeed= 2;

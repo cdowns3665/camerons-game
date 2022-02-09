@@ -4,11 +4,11 @@
 //trigger temporary invincibility and get damaged
 function PlayerHurt()
 {
-		if(!oPlayer.isInvincible)
+		if(!oPlayerrpg.isInvincible)
 		{
-			oPlayer.isInvincible = true;
-			oPlayer.hp --;
-			if (oPlayer.hp < 1)
+			oPlayerrpg.isInvincible = true;
+			oPlayerrpg.hp --;
+			if (oPlayerrpg.hp < 1)
 			{
 				PlayerDeath();
 			}

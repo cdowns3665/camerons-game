@@ -21,7 +21,7 @@ if (abs(oPlayerrpg.x - x) < 128)
 
 
 yDirection = sign(oPlayerrpg.y - y);
-yVector = yspeed * yDirection;
+yVector = ySpeed * yDirection;
 
 if (abs(oPlayerrpg.y - y) < 128) 
 {

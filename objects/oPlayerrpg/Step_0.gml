@@ -1,12 +1,7 @@
 /// @description movment
 //code that rus every frame
 
-levelTimer -= 1/room_speed
-
-if( levelTimer <= 0)
-{
-	room_restart();
-}
+levelTimer += 1/room_speed
 
 
 if (isInvincible)
@@ -50,7 +45,7 @@ x = x + xVector;
 //vertical movement
 
 yDirection = down - up;
-yVector = yspeed * yDirection
+yVector = ySpeed * yDirection
 
 if (place_meeting(x,y + yVector, oWall))
 	{
@@ -69,3 +64,14 @@ if (place_meeting(x,y + yVector, oWall))
 //otherwise move normal
 y = y + yVector;
 
+//sprint 
+if keyboard_check_pressed(vk_shift)
+	{
+	ySpeed = 6
+	xSpeed = 6
+	}
+	if keyboard_check_released(vk_shift)
+	{
+	ySpeed = 4
+	xSpeed = 4
+	}
