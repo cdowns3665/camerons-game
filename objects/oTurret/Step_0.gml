@@ -13,3 +13,5 @@ if (shotTimer < 0)
 		direction = point_direction(x, y, oPlayerrpg.x, oPlayerrpg.y)
 	}
 }
+/// @description Insert description here
+// You can write your code in this editor
