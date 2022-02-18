@@ -20,7 +20,7 @@ right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
 up = keyboard_check(vk_up)
 down = keyboard_check(vk_down)
-
+attack = keyboard_check(vk_alt)
 //horizontl movement
 xDirection = right - left;
 xVector = xSpeed * xDirection;
@@ -75,3 +75,14 @@ if keyboard_check_pressed(vk_shift)
 	ySpeed = 4
 	xSpeed = 4
 	}
+	
+	
+	
+	
+	// melee attack
+	if keyboard_check(vk_alt) attack=true
+	if attack and (place_meeting(x,y,oEmemy)
+	{
+	enemyHurt()	
+	}
+	

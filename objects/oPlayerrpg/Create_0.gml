@@ -25,3 +25,7 @@ hp = 6;
 invTimer = 2;
 //lvl timer
 levelTimer = 0;
+
+
+
+attack=false
