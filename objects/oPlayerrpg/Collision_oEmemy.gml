@@ -1,4 +1,10 @@
 /// @description basic enemy collision
 
-PlayerHurt();
-	
+if attack
+{
+	EnemyHurt()
+}
+ if attack=false
+ {
+	PlayerHurt()	 
+ }

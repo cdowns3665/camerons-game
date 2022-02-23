@@ -27,5 +27,5 @@ invTimer = 2;
 levelTimer = 0;
 
 
-
+sheild=false
 attack=false
