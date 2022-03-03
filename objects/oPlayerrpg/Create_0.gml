@@ -1,3 +1,4 @@
+
 /// code that runs when oplayer is created
 // how many pixles perframe we want our player to move
 xSpeed = 4;
@@ -29,4 +30,6 @@ levelTimer = 0;
 
 sheild=false
 attack=false
+
+
 
