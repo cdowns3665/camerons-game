@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sFlag",
-    "path": "sprites/sFlag/sFlag.yy",
+    "name": "sFlag2",
+    "path": "sprites/sFlag2/sFlag2.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oflag",
+  "name": "oLeft",
   "tags": [],
   "resourceType": "GMObject",
 }

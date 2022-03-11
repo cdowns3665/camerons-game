@@ -1,6 +1,11 @@
 
 /// code that runs when oplayer is created
 // how many pixles perframe we want our player to move
+global.xPos = x;
+global.yPos = y;
+global.isTransitioning= false;
+
+
 xSpeed = 4;
 ySpeed = 4;
 
@@ -30,6 +35,10 @@ levelTimer = 0;
 
 sheild=false
 attack=false
+
+enterLeft=false;
+enterRight=false;
+
 
 
 

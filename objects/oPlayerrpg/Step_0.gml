@@ -86,3 +86,7 @@ if keyboard_check_pressed(vk_shift)
 	
 // sheild attack
 	if keyboard_check(vk_control) sheild=true
+	
+	
+global.xPos = x;
+global.yPos = y;
