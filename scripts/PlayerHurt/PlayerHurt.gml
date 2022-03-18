@@ -18,5 +18,5 @@ function PlayerHurt()
 //restart leavel for player death
 function PlayerDeath()
 {
-	room_restart();
+	game_restart()
 }

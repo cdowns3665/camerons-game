@@ -4,6 +4,7 @@
 global.xPos = x;
 global.yPos = y;
 global.isTransitioning= false;
+global.transitionTimer = 2;
 
 
 xSpeed = 4;
@@ -36,8 +37,8 @@ levelTimer = 0;
 sheild=false
 attack=false
 
-enterLeft=false;
-enterRight=false;
+global.enterLeft=false;
+global.enterRight=false;
 
 
 

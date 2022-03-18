@@ -2,13 +2,13 @@
 // You can write your code in this editor
 if (!global.isTransitioning)
 {
-	global.isTransitioning= true
-	enterRight=true;
+	global.isTransitioning= true;
+	global.enterRight=true;
 	
-	if enterRight
+	if global.enterRight
 	{
 		global.createdEnemyid = 0;
 		room_goto_next();
-		enterRight=false;
 	}
+	
 }

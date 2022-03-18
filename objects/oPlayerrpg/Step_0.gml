@@ -2,7 +2,17 @@
 //code that rus every frame
 
 levelTimer += 1/room_speed
-
+if global.isTransitioning
+{
+	global.transitionTimer -= 1/room_speed;
+	if global.transitionTimer <= 0
+	{
+		global.enterRight=false;
+		global.isTransitioning = false;
+		global.transitionTimer = 3;
+		global.enterLeft=false;
+	}
+}
 
 if (isInvincible)
 {

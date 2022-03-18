@@ -1,20 +1,10 @@
-/*if oPlayerrpg.enterLeft
+if global.enterLeft
 {
-	instance_create_layer(global.xPos+(room_width-sprite_width), global.yPos, "Instances", oPlayerrpg )
-}
-if oPlayerrpg.enterRight
-{
-	instance_create_layer(global.xPos - (room_width+sprite_width), global.yPos, "Instances", oPlayerrpg )
-}
-*/
-
-if oPlayerrpg.enterLeft
-{
-	oPlayerrpg.x=global.xPos+(room_width-sprite_width-10)
+	oPlayerrpg.x=global.xPos+((room_width+64)-sprite_width)
 	oPlayerrpg.y=global.yPos
 }
-if oPlayerrpg.enterRight
+if global.enterRight
 {
-	oPlayerrpg.x=global.xPos - (room_width+sprite_width+10)
+	oPlayerrpg.x=global.xPos - ((room_width-64)+sprite_width)
 	oPlayerrpg.y=global.yPos
 }
