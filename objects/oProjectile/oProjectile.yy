@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sProjectal",
-    "path": "sprites/sProjectal/sProjectal.yy",
+    "name": "sProjectile",
+    "path": "sprites/sProjectile/sProjectile.yy",
   },
   "solid": true,
   "visible": true,

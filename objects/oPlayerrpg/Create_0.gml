@@ -5,6 +5,10 @@ global.xPos = x;
 global.yPos = y;
 global.isTransitioning= false;
 global.transitionTimer = 2;
+global.enterLeft=false;
+global.enterRight=false;
+global.enterUp=false;
+global.enterDown=false;
 
 
 xSpeed = 4;
@@ -37,9 +41,23 @@ levelTimer = 0;
 sheild=false
 attack=false
 
-global.enterLeft=false;
-global.enterRight=false;
 
 
 
+enum states
+{
+	walking, 
+	attacking,
+	idle
+}
 
+state=states.idle;
+
+state_array[states.walking] = StatePlayerWalking;
+state_array[states.idle]= StatePlayerIdle;
+state_array[states.attacking] = StatePlayerAttacking;
+
+
+sprite_array[states.walking] = sPlayer;
+sprite_array[states.idle] = sPlayer;
+sprite_array[states.attacking] = sPlayer;

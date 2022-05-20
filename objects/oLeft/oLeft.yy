@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sFlag2",
-    "path": "sprites/sFlag2/sFlag2.yy",
+    "name": "sFlag",
+    "path": "sprites/sFlag/sFlag.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
